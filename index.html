@@ -5,13 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<style>
-    .container {
-        width: 1140px;
-        margin: 0 auto;
-    }
-</style>
 
 <body>
     <!-- Tạo div container -->
@@ -20,29 +15,34 @@
         <header>
             <!-- Tạo list -->
             <div class="Header">
-                <ul>
+                <!-- Chia Header thành 2 phần trái và phải  -->
+
+                <!-- Bên trái -->
+                <div class="HeaderLeft">
                     <!-- Vovinam log -->
-                    <li style="list-style-type: disc;">
-                        <img src="../image/vovinamlogo.png" id="vovinamlogo" alt="vovinamlogo"
-                            style="width: 100px; height: 100px;">
-                    </li>
+                    <img src="../image/vovinamlogo.png" id="vovinamlogo" alt="vovinamlogo"
+                        style="width: 100px; height: 100px;">
+                </div>
+
+                <!-- Bên phải -->
+                <div class="HeaderRight">
                     <!-- Link FVC page -->
-                    <li style="list-style-type: disc;">
-                        <a href="https://www.google.com.vn/" target="_blank">FVC Page</a>
-                    </li>
+                    <div class="Url">
+                        <a href="https://www.google.com.vn/" target="_blank"><span>FVC Page</span></a>
+                    </div>
                     <!-- Link Hoạt động -->
-                    <li>
+                    <div class="Url">
                         <a href="https://www.google.com.vn/" target="_blank">Hoạt động</a>
-                    </li>
+                    </div>
                     <!-- Link nội quy -->
-                    <li>
+                    <div class="Url">
                         <a href="https://www.google.com.vn/" target="_blank">Nội quy</a>
-                    </li>
+                    </div>
                     <!-- Logo FVC DN -->
-                    <li>
+                    <div class="FVCLogo">
                         <img src="../image/FVCLogo.png" id="FVCLogo" alt="FVCLogo" style="width: 100px; height: 100px;">
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </header>
 

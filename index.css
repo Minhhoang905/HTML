@@ -1,0 +1,67 @@
+/* class Container */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* class header  */
+.Header {
+    height: 120px;
+    display: flex;
+}
+
+/* class bodypart */
+.BodyPart {
+    height: auto;
+}
+
+/* class Footer */
+.Footer {
+    height: 120px;
+}
+
+/* phần bên trái của class header  */
+.HeaderLeft {
+    display: flex;
+    flex: 1;
+}
+
+/* phần bên phải của class header  */
+.HeaderRight {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+/* Class Url */
+.Url {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+
+/* a ở .Url */
+.Url>a {
+    font-weight: 200;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* pseudo class của a*/
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+
+}
+
+a:hover {
+    color: rgb(157, 15, 15);
+
+}
+
+a:active {
+    color: rgb(23, 110, 172);
+}
