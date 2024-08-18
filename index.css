@@ -9,26 +9,22 @@
 
 }
 
-
-.me-3>a {
-    text-decoration: none;
-}
-
-a :link {
-    background-color: black;
-}
-
-a:visited {
+.nav-item>a:link {
     color: black;
 }
 
-a:hover {
+.nav-item>a:visited {
+    color: black;
+}
+
+.nav-item>a:hover {
     color: brown;
 }
 
-a:active {
+.nav-item>a:active {
     color: rgb(43, 43, 161);
 }
+
 
 
 .overlay-text {
