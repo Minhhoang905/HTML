@@ -1,11 +1,9 @@
 #vovinamlogo {
-    height: 80px;
     width: 80px;
 }
 
 #FVCLogo {
     height: 80px;
-    width: 80px;
 
 }
 
@@ -46,7 +44,7 @@
     /* Set margin của thẻ h1 về 0*/
     margin: 0;
     /* Set lại margin của thẻ h1 */
-    margin: -70px 0px 0px 40px;
+    margin: -30px 0px 0px 40px;
     /* Độ đậm của font chữ */
     font-weight: 300;
     /* Set kích cỡ của dòng chữ */
@@ -74,7 +72,7 @@
         /* Set margin của thẻ h1 về 0*/
         margin: 0;
         /* Set lại margin của thẻ h1 */
-        margin: -60px 0px 0px 50px;
+        margin: 10px 0px 0px 50px;
         /* Độ đậm của font chữ */
         font-weight: 300;
         /* Set kích cỡ của dòng chữ */
@@ -102,7 +100,7 @@
         /* Set margin của thẻ h1 về 0*/
         margin: 0;
         /* Set lại margin của thẻ h1 */
-        margin: -20px 0px 0px 20px;
+        margin: 10px 0px 0px 20px;
         /* Độ đậm của font chữ */
         font-weight: 300;
         /* Set kích cỡ của dòng chữ */
