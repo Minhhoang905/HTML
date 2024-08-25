@@ -1,0 +1,24 @@
+#pubg-icon {
+    width: 80px;
+}
+
+#akm-icon {
+    width: 80px;
+
+}
+
+.nav-item>a:link {
+    color: black;
+}
+
+.nav-item>a:visited {
+    color: black;
+}
+
+.nav-item>a:hover {
+    color: brown;
+}
+
+.nav-item>a:active {
+    color: rgb(43, 43, 161);
+}
