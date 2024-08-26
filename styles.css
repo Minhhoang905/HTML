@@ -22,3 +22,105 @@
 .nav-item>a:active {
     color: rgb(43, 43, 161);
 }
+
+.overlay-text {
+    /* Di chuyển phần tử con từ phía trái sang phải */
+    left: 50%;
+    /* Di chuyển phần tử con từ trên xuống */
+    top: 20%;
+    /* Dịch chuyển phần tử để căn chính giữa */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.container {
+    background-color: #2F2E2C;
+}
+
+/* thẻ h1 trong class OverlayText*/
+.overlay-text h1 {
+    /* Set margin của thẻ h1 về 0*/
+    margin: 0;
+    /* Set lại margin của thẻ h1 */
+    margin: -60px 0px 0px 40px;
+    /* Độ đậm của font chữ */
+    font-weight: 300;
+    /* Set kích cỡ của dòng chữ */
+    font-size: 40px;
+    /* Màu chữ */
+    color: aliceblue;
+}
+
+/* thẻ p trong class OverlayText*/
+.overlay-text p {
+    /* Độ đậm của font chữ */
+    font-weight: lighter;
+    /* Căn text ở giữa so với class OverlayText */
+    text-align: center;
+    /* Màu chữ */
+    color: aliceblue;
+}
+
+
+/* Chỉnh vị trí text nếu là tablet  */
+@media screen and (max-width: 1023px) {
+
+    /* thẻ h1 trong class OverlayText*/
+    .overlay-text h1 {
+        /* Set margin của thẻ h1 về 0*/
+        margin: 0;
+        /* Set lại margin của thẻ h1 */
+        margin: -50px 0px 0px 50px;
+        /* Độ đậm của font chữ */
+        font-weight: 300;
+        /* Set kích cỡ của dòng chữ */
+        font-size: 30px;
+        /* Màu chữ */
+        color: aliceblue;
+    }
+
+    /* thẻ p trong class OverlayText*/
+    .overlay-text p {
+        /* Độ đậm của font chữ */
+        font-weight: lighter;
+        /* Căn text ở giữa so với class OverlayText */
+        text-align: center;
+        /* Màu chữ */
+        color: aliceblue;
+    }
+}
+
+/* Chỉnh vị trí text nếu là mobile */
+@media screen and (max-width: 767px) {
+
+    /* thẻ h1 trong class OverlayText*/
+    .overlay-text h1 {
+        /* Set margin của thẻ h1 về 0*/
+        margin: 0;
+        /* Set lại margin của thẻ h1 */
+        margin: -30px 0px 0px 20px;
+        /* Độ đậm của font chữ */
+        font-weight: 300;
+        /* Set kích cỡ của dòng chữ */
+        font-size: 15px;
+        /* Màu chữ */
+        color: aliceblue;
+        text-align: center;
+    }
+
+    /* thẻ p trong class OverlayText*/
+    .overlay-text p {
+        /* Độ đậm của font chữ */
+        font-weight: lighter;
+        /* Căn text ở giữa so với class OverlayText */
+        text-align: center;
+        /* Set kích cỡ của dòng chữ */
+        font-size: 8px;
+        /* Màu chữ */
+        color: aliceblue;
+        margin-left: 15px;
+    }
+}
