@@ -8,11 +8,11 @@
 }
 
 .nav-item>a:link {
-    color: black;
+    color: aliceblue;
 }
 
 .nav-item>a:visited {
-    color: black;
+    color: aliceblue;
 }
 
 .nav-item>a:hover {
@@ -21,6 +21,12 @@
 
 .nav-item>a:active {
     color: rgb(43, 43, 161);
+}
+
+.navbar {
+    border: 3px solid #ffffff1d;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
 }
 
 .overlay-text {
@@ -123,4 +129,80 @@
         color: aliceblue;
         margin-left: 15px;
     }
+}
+
+#krafton-icon {
+    width: 220px;
+}
+
+.row>p {
+    color: aliceblue;
+}
+
+/* facebook */
+#facebook:link {
+    color: #0866FF;
+}
+
+#facebook:visited {
+    color: #0866FF;
+}
+
+#facebook:hover {
+    color: brown;
+}
+
+#facebook:active {
+    color: rgb(12, 12, 49);
+}
+
+/* google */
+#google:link {
+    color: #FFFFFF;
+}
+
+#google:visited {
+    color: #FFFFFF;
+}
+
+#google:hover {
+    color: brown;
+}
+
+#google:active {
+    color: rgb(12, 12, 49);
+}
+
+/* discord */
+#discord:link {
+    color: #5567E3;
+}
+
+#discord:visited {
+    color: #5567E3;
+}
+
+#discord:hover {
+    color: brown;
+}
+
+#discord:active {
+    color: rgb(12, 12, 49);
+}
+
+/* Youtube */
+#youtube:link {
+    color: #FF0000;
+}
+
+#youtube:visited {
+    color: #FF0000;
+}
+
+#youtube:hover {
+    color: brown;
+}
+
+#youtube:active {
+    color: rgb(12, 12, 49);
 }
