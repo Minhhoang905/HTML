@@ -29,6 +29,11 @@
     backdrop-filter: blur(3px);
 }
 
+#Pubg-wallpaper {
+    height: auto;
+    width: 30%;
+}
+
 .overlay-text {
     /* Di chuyển phần tử con từ phía trái sang phải */
     left: 50%;
@@ -42,8 +47,11 @@
 
 }
 
-.container {
-    background-color: #2F2E2C;
+.container-fluid {
+    background-color: #000000;
+    /* Chỉnh khoảng cách để không trùng với header */
+    padding-top: 120px;
+
 }
 
 /* thẻ h1 trong class OverlayText*/
@@ -74,6 +82,13 @@
 /* Chỉnh vị trí text nếu là tablet  */
 @media screen and (max-width: 1023px) {
 
+    /* Chỉnh kích thước của img dưới đây nếu là tablet  */
+    #Pubg-wallpaper {
+        height: auto;
+        width: 20%;
+        margin-left: 40px;
+    }
+
     /* thẻ h1 trong class OverlayText*/
     .overlay-text h1 {
         /* Set margin của thẻ h1 về 0*/
@@ -101,6 +116,13 @@
 
 /* Chỉnh vị trí text nếu là mobile */
 @media screen and (max-width: 767px) {
+
+    /* Chỉnh kích thước của img dưới đây nếu là moblie  */
+    #Pubg-wallpaper {
+        height: auto;
+        width: 30%;
+        margin-left: 20px;
+    }
 
     /* thẻ h1 trong class OverlayText*/
     .overlay-text h1 {
