@@ -80,7 +80,6 @@
     color: aliceblue;
 }
 
-
 /* Chỉnh vị trí text nếu là tablet  */
 @media screen and (max-width: 1023px) {
 
@@ -232,4 +231,130 @@
 
 #youtube:active {
     color: rgb(12, 12, 49);
+}
+
+/* css ở lower-main của spec.html như sau */
+
+#ammo {
+    width: 15%;
+    height: auto;
+}
+
+
+/* upper-row  */
+.upper-row>span {
+    color: #F1FFFF;
+}
+
+/* lower-row */
+.lower-row {
+    display: flex;
+    width: 100%;
+    background-color: #4C4C4E;
+}
+
+.lower-row-percent {
+    display: flex;
+    justify-content: center;
+    background-color: #F2AA00;
+}
+
+/* Kích thước của cột sát thương trên 1 viên đạn */
+
+.damage-row .lower-row-percent {
+    width: 49%;
+    animation: damage 3s linear 0.5s 1;
+}
+
+@keyframes damage {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 49%;
+    }
+}
+
+/* Kích thước của cột tốc độ bắn */
+
+.speed-row .lower-row-percent {
+    width: 60%;
+    animation: speed 3s linear 0.5s 1;
+}
+
+@keyframes speed {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+/* Kích thước của cột độ ổn định */
+
+.stability-row .lower-row-percent {
+    width: 30%;
+    animation: stability 3s linear 0.5s 1;
+}
+
+@keyframes stability {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 30%;
+    }
+}
+
+/* Kích thước của cột DPS */
+
+.DPS-row .lower-row-percent {
+    width: 69%;
+    animation: DPS 3s linear 0.5s 1;
+}
+
+@keyframes DPS {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 69%;
+    }
+}
+
+/* Kích thước của cột Sơ tốc đầu nòng  */
+.muzzle-velocity-row .lower-row-percent {
+    width: 55%;
+    animation: DPS 3s linear 0.5s 1;
+}
+
+@keyframes DPS {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+/* Kích thước của cột phạm vi hiệu quả */
+.effective-range-row .lower-row-percent {
+    width: 53%;
+    animation: DPS 3s linear 0.5s 1;
+}
+
+@keyframes DPS {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 53%;
+    }
 }
