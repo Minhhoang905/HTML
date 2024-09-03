@@ -263,7 +263,7 @@
 
 .damage-row .lower-row-percent {
     width: 49%;
-    animation: damage 3s linear 0.5s 1;
+    animation: damage 5s ease-in 0.5s 1;
 }
 
 @keyframes damage {
@@ -280,7 +280,7 @@
 
 .speed-row .lower-row-percent {
     width: 60%;
-    animation: speed 3s linear 0.5s 1;
+    animation: speed 5s ease-in 0.5s 1;
 }
 
 @keyframes speed {
@@ -297,7 +297,7 @@
 
 .stability-row .lower-row-percent {
     width: 30%;
-    animation: stability 3s linear 0.5s 1;
+    animation: stability 5s ease-in 0.5s 1;
 }
 
 @keyframes stability {
@@ -314,7 +314,7 @@
 
 .DPS-row .lower-row-percent {
     width: 69%;
-    animation: DPS 3s linear 0.5s 1;
+    animation: DPS 5s ease-in 0.5s 1;
 }
 
 @keyframes DPS {
@@ -330,7 +330,7 @@
 /* Kích thước của cột Sơ tốc đầu nòng  */
 .muzzle-velocity-row .lower-row-percent {
     width: 55%;
-    animation: DPS 3s linear 0.5s 1;
+    animation: DPS 5s ease-in 0.5s 1;
 }
 
 @keyframes DPS {
@@ -346,7 +346,7 @@
 /* Kích thước của cột phạm vi hiệu quả */
 .effective-range-row .lower-row-percent {
     width: 53%;
-    animation: DPS 3s linear 0.5s 1;
+    animation: DPS 5s ease-in 0.5s 1;
 }
 
 @keyframes DPS {
