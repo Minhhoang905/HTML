@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipment</title>
+    <title>equipment</title>
     <!-- website favicon  -->
     <link rel="icon" type="png" href="image/pubg-favicon.png">
     <!-- css -->
@@ -15,7 +15,261 @@
 </head>
 
 <body>
+    <!-- Tạo Header -->
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <!-- PUBG logo -->
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="image/pubg-icon.png" id="pubg-icon" alt="pubg-icon">
+            </a>
 
+            <!-- Tạo button dropdown -->
+            <button class="navbar-toggler ms-auto bg-white" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Tạo menu dropdown -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Link Trang chủ -->
+                    <li class="nav-item">
+                        <a class="nav-link pe-2" href="index.html">Trang chủ</a>
+                    </li>
+                    <!-- Link Thông số kỹ thuật -->
+
+                    <li class="nav-item">
+                        <a class="nav-link  pe-2" href="spec.html">Thông số kỹ thuật</a>
+                    </li>
+                    <!-- Link Trang bị đi kèm -->
+                    <li class="nav-item">
+                        <a class="nav-link  pe-2" href="equip.html">Trang bị</a>
+                    </li>
+                    <!-- Link skin súng -->
+                    <li class="nav-item">
+                        <a class="nav-link  pe-2" href="#">Skin</a>
+                    </li>
+                    <!-- Link Liên hệ -->
+                    <li class="nav-item">
+                        <a class="nav-link  pe-2" href="#">Về chúng tôi</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Logo akm -->
+            <a class="navbar-brand ms-2" href="#">
+                <img class="img-fluid" src="image/akm-icon.png" id="akm-icon" alt="akm-icon">
+            </a>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <!-- Tạo main -->
+        <main>
+            <!-- AKM wallpaper -->
+            <section>
+                <div class="row position-relative">
+                    <img class="img-fluid" src="image/AkmWallpaper.png" id="akm-wallpaper" alt="akm-wallpaper">
+                    <div class="row row-cols-2 overlay-text position-absolute d-flex align-items-center">
+                        <h1 class="mb-0 me-2">
+                            Trang bị
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <!-- "Nòng" -->
+            <section>
+                <!-- Tên tiêu đề  -->
+                <div class="row text-center">
+                    <h1 class="mb-3 me-2 bg-danger">
+                        Nòng
+                    </h1>
+                </div>
+                <!-- Tạo row chứa hình ảnh -->
+                <div class="row row-cols-md-4 row-cols-sm-2">
+                    <!-- Nòng giảm giật -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/Compensator.png" id="Compensator" alt="Compensator">
+                            <figcaption>
+                                <h3>Nòng giảm giật</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Nòng hãm tia lửa -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/FlashHider.png" id="FlashHider" alt="FlashHider">
+                            <figcaption>
+                                <h3>Nòng hãm tia lửa</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Nòng giảm thanh -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/Supperssor.png" id="Supperssor" alt="Supperssor">
+                            <figcaption>
+                                <h3>Nòng giảm thanh</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Bộ hãm đầu nòng -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/MuzzleBrake.png" id="MuzzleBrake" alt="MuzzleBrake">
+                            <figcaption>
+                                <h3>Bộ hãm đầu nòng</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Nòng nhắm -->
+            <section>
+                <!-- Tên tiêu đề  -->
+                <div class="row text-center">
+                    <h1 class="mb-3 me-2 bg-danger">
+                        Nòng nhắm
+                    </h1>
+                </div>
+                <!-- Tạo row chứa hình ảnh -->
+                <div class="row row-cols-lg-4 row-cols-md-3 row-cols-2">
+                    <!-- Red dot -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/RedDot.png" id="luyentap1" alt="luyentap1">
+                            <figcaption>
+                                <h3>Red Dot</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Holographic -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/Holo.png" id="luyentap2" alt="luyentap2">
+                            <figcaption>
+                                <h3>Holographic</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 2x scope -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/2xScope.png" id="luyentap3" alt="luyentap3">
+                            <figcaption>
+                                <h3>2x Scope</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 3x Scope -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/3xScope.png" id="luyentap4" alt="luyentap4">
+                            <figcaption>
+                                <h3>3x Scope</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 4x Scope -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/4xScope.png" id="luyentap3" alt="luyentap3">
+                            <figcaption>
+                                <h3>4x Scope</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- 6x Scope -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/6xScope.png" id="luyentap4" alt="luyentap4">
+                            <figcaption>
+                                <h3>6x Scope</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Thermal 4x Scope -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/Thermal4xScope.png" id="luyentap3" alt="luyentap3">
+                            <figcaption>
+                                <h3 class="text-truncate">Thermal 4x Scope</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!--Canted sight  -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/canted-sight.png" id="luyentap3" alt="luyentap3">
+                            <figcaption>
+                                <h3>Canted sight</h3>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- "Băng đạn" -->
+            <section>
+                <!-- Tên tiêu đề  -->
+                <div class="row text-center">
+                    <h1 class="mb-3 me-2 bg-danger">
+                        Băng đạn
+                    </h1>
+                </div>
+                <!-- Row chứa hình ảnh -->
+                <div class="row row-cols-md-3 row-cols-sm-2">
+                    <!-- Băng đạn thay nhanh -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/QuickDrawMag.png" id="QuickDrawMag" alt="QuickDrawMag">
+                            <figcaption>
+                                <h3 class="text-truncate">Băng đạn thay nhanh</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Băng đạn mở rộng -->
+                    <div class="col d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/ExtendedMag.png" id="ExtendedMag" alt="ExtendedMag">
+                            <figcaption>
+                                <h3 class="text-truncate">Băng đạn mở rộng</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- Băng đạn mở rộng thay nhanh -->
+                    <div class="col-sm-12 d-flex flex-column align-items-center text-center">
+                        <figure>
+                            <img class="img-fluid" src="image/Ext.QuickDrawMag.png" id="Ext-QuickDrawMag"
+                                alt="Ext-QuickDrawMag">
+                            <figcaption>
+                                <h3>Băng đạn mở rộng thay nhanh</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Tạo footer -->
+        <footer>
+            <div class="row justify-content-center mb-2">
+                <img class="img-fluid" src="image/krafton-icon.png" id="krafton-icon" alt="krafton-icon">
+            </div>
+            <div class="row text-center">
+                <p>© 2024 KRAFTON, INC. PUBG LÀ NHÃN HIỆU HOẶC NHÃN HIỆU DỊCH VỤ ĐÃ ĐĂNG KÝ CỦA KRAFTON, INC.</p>
+                <p>Follow us on <a href="https://facebook.com" target="_blank" id="facebook">Facebook</a> | <a
+                        href="https://google.com" target="_blank" id="google">Google</a> | <a
+                        href="https://discord.com/" target="_blank" id="discord">Discord</a> | <a
+                        href="https://www.youtube.com/" target="_blank" id="youtube">Youtube</a></p>
+            </div>
+        </footer>
+
+    </div>
 </body>
 
 </html>

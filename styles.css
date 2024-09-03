@@ -358,3 +358,8 @@
         width: 53%;
     }
 }
+
+/* Chỉnh màu chữ của figcaption */
+figcaption {
+    color: #EAF2F9;
+}
