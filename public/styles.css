@@ -330,10 +330,10 @@
 /* Kích thước của cột Sơ tốc đầu nòng  */
 .muzzle-velocity-row .lower-row-percent {
     width: 55%;
-    animation: DPS 5s ease-in 0.5s 1;
+    animation: muzzle-velocity 5s ease-in 0.5s 1;
 }
 
-@keyframes DPS {
+@keyframes muzzle-velocity {
     from {
         width: 0%;
     }
@@ -346,10 +346,10 @@
 /* Kích thước của cột phạm vi hiệu quả */
 .effective-range-row .lower-row-percent {
     width: 53%;
-    animation: DPS 5s ease-in 0.5s 1;
+    animation: effective-range 5s ease-in 0.5s 1;
 }
 
-@keyframes DPS {
+@keyframes effective-range {
     from {
         width: 0%;
     }
